@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - prints a fizz buzz program
- * Return: alwiays 0 success
+ * main - prints a Fizz Buzz program
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -14,7 +14,7 @@ int main(void)
 	{
 	if ((x % 3 == 0) && (x % 5 == 0))
 	{
-	printf("Fizzbuzz");
+	printf("FizzBuzz");
 	}
 	else if (x % 3 == 0)
 	{
